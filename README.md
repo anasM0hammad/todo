@@ -12,6 +12,10 @@ A basic todo app api with all CRUD operations
 3. in command line : npm start or npm run dev
 4. your todo app server will run on 3000 port i.e localhost:3000
 
+### Database Name : todo
+### collection name : todos
+
+
 ### End points :
 1. To save a todo <br>
      &nbsp; end point: /save-todo <br>
