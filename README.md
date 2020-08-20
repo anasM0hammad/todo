@@ -19,24 +19,24 @@ A basic todo app api with all CRUD operations
      &nbsp; body : { <br>
            &nbsp; &nbsp;   "title" : "Any Title" , <br>
            &nbsp; &nbsp;   "description" : "Any" <br>
-           &nbsp; &nbsp; } br>
+           &nbsp; &nbsp; } <br>
      
 2. To Get all Todo <br>
       &nbsp; end point : /all-todos <br>
       &nbsp; type : GET <br>
       
-3. To Update a Todo
-      end point : /update-todo
-      type: POST
-      body : SAME AS /save-todo
-      headers : {
-                "id" : mongodb ObjectId
-                }
+3. To Update a Todo <br>
+      &nbsp; end point : /update-todo <br>
+      &nbsp; type: POST <br>
+      &nbsp; body : SAME AS /save-todo <br>
+      &nbsp; headers : { <br>
+              &nbsp;  &nbsp;   "id" : mongodb ObjectId <br>
+               &nbsp;  } <br>
                 
-4. To delete a todo
-      end point: /delete-todo
-      type: GET
-      headers : {
-                  "id" : mongodb ObjectId
-                }
+4. To delete a todo <br>
+       &nbsp; end point: /delete-todo <br>
+       &nbsp; type: GET <br>
+       &nbsp; headers : { <br>
+               &nbsp;  &nbsp;     "id" : mongodb ObjectId <br>
+                &nbsp;  &nbsp;  } <br>
                 
