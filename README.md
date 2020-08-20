@@ -14,16 +14,16 @@ A basic todo app api with all CRUD operations
 
 ### End points :
 1. To save a todo <br>
-     &nbsp end point: /save-todo <br>
-     &nbsp type : POST Request <br>
-     &nbsp body : { <br>
-           &nbsp &nbsp   "title" : "Any Title" , <br>
-           &nbsp &nbsp   "description" : "Any" <br>
-           &nbsp &nbsp } br>
+     &nbsp; end point: /save-todo <br>
+     &nbsp; type : POST Request <br>
+     &nbsp; body : { <br>
+           &nbsp; &nbsp;   "title" : "Any Title" , <br>
+           &nbsp; &nbsp;   "description" : "Any" <br>
+           &nbsp; &nbsp; } br>
      
 2. To Get all Todo <br>
-      &nbsp end point : /all-todos <br>
-      &nbsp type : GET <br>
+      &nbsp; end point : /all-todos <br>
+      &nbsp; type : GET <br>
       
 3. To Update a Todo
       end point : /update-todo
