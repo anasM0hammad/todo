@@ -1,7 +1,7 @@
-# Todo API
+# Todo API <br>
 A basic todo app api with all CRUD operations
 
-### Project Files 
+### Project Files <br> 
 1. app.js : server is created in this file using express. All the end points are also coded here
 2. database.js : Mongodb client is configured in this file. I used Atlas and connect with db using URL. You need to put your own url of db in URL variable.
 3. models/todo.model.js : the todo model in describe in this file. A todo consist of a title and description with by default mongodb id. All the CRUD functions are coded in Todo class
