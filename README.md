@@ -13,17 +13,17 @@ A basic todo app api with all CRUD operations
 4. your todo app server will run on 3000 port i.e localhost:3000
 
 ### End points :
-1. To save a todo
-     end point: /save-todo
-     type : POST Request
-     body : {
-              "title" : "Any Title",
-              "description" : "Any"
-            }
+1. To save a todo <br>
+     &nbsp end point: /save-todo <br>
+     &nbsp type : POST Request <br>
+     &nbsp body : { <br>
+           &nbsp &nbsp   "title" : "Any Title" , <br>
+           &nbsp &nbsp   "description" : "Any" <br>
+           &nbsp &nbsp } br>
      
-2. To Get all Todo
-      end point : /all-todos
-      type : GET
+2. To Get all Todo <br>
+      &nbsp end point : /all-todos <br>
+      &nbsp type : GET <br>
       
 3. To Update a Todo
       end point : /update-todo
